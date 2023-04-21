@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.TESTING_AREA"
+            tools:targetApi="31">
+        <activity
+                android:name=".NaiveNavigationBar"
+                android:exported="false"
+                android:label="@string/title_activity_naive_navigation_bar"
+                android:screenOrientation="reversePortrait"
+                android:theme="@style/Theme.TESTING_AREA" />
+        <activity
+                android:name=".AndroidXNavigationBar"
+                android:exported="false"
+                android:label="@string/title_activity_naive_navigation_bar"
+                android:screenOrientation="reversePortrait"
+                android:theme="@style/Theme.TESTING_AREA" />
+        <activity
+                android:name=".TipCalculator"
+                android:exported="false"
+                android:label="@string/title_activity_tip_calculator"
+                android:screenOrientation="reversePortrait"
+                android:theme="@style/Theme.TESTING_AREA" />
+        <activity
+                android:name=".TopicsGrid"
+                android:exported="false"
+                android:label="@string/title_activity_topics_grid"
+                android:screenOrientation="reversePortrait"
+                android:theme="@style/Theme.TESTING_AREA" />
+        <activity
+                android:name=".ImagesAndQuotesList"
+                android:exported="false"
+                android:label="@string/title_activity_images_and_quotes_list"
+                android:screenOrientation="reversePortrait"
+                android:theme="@style/Theme.TESTING_AREA" />
+        <activity
+                android:name=".MainActivity"
+                android:exported="true"
+                android:label="@string/app_name"
+                android:screenOrientation="reversePortrait"
+                android:theme="@style/Theme.TESTING_AREA">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
